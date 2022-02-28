@@ -35,6 +35,8 @@ Select “Custom” and ensure that the setting are 1280x720 pixels
 
 Go to Tools->Script Editor
 
+Paste the script from [generateScreenshots.js](https://github.com/jazmy/Google-Slides-Generate-Video/blob/main/generateScreenshots.js)
+
 
 ## Step 3: Add the Services
 

@@ -64,7 +64,7 @@ it is the long jibberish string in the URL
 
 
 ```
-var presentationname = "astrid-ep01-slide";
+var presentationname = "myslides";
 ```
 
 

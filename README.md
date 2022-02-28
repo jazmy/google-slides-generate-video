@@ -47,7 +47,7 @@ There are two variables you will need to change
 
 
 ```
-var presentationId = "193gYnPOJQwWFHG0NyAZU9OvlL9Eu88AW63O9Tk76dDM";
+var presentationId = "193gYnPOJQwJAZ0NyAZU9OvlL2Eu38AW63O9Tk72dDM";
 ```
 
 You can get the ID of your presentation from the Slide URL

@@ -76,6 +76,9 @@ The presentation name will end up being the filename that your images are saved.
 * myslides02.jpg
 * myslides03.jpg
 
+## Step 4: Run the Script
+
+The first time you run the script you will need to grant it permissions to your google drive so it can save the images. Popup windows will appear requesting permission.
 
 # Create a Corresponding MP3 Audio File for Each Slide
 
@@ -90,7 +93,7 @@ Once you have the screenshot images you need to ensure you have a corresponding 
 _Note: When recording your audio file ensure the audio files are tightly cropped to the narration. If you have several seconds recorded before you start talking or after you finish talking then those moments in the video may result in awkward pauses._
 
 
-## Step 4: Organize Files into Folder
+## Step 5: Organize Files into Folder
 
 Place all your screenshot JPG images and your mp3 audio files into the same folder.
 
@@ -104,11 +107,6 @@ Place all your screenshot JPG images and your mp3 audio files into the same fold
 * Myslides03.mp3
 
 _Note: The script will crash if every image does not have a corresponding audio file. You may just want no narration on a slide in which case record a couple seconds of silence as an mp3._
-
-
-## Step 5: Run the Script
-
-The first time you run the script you will need to grant it permissions to your google drive so it can save the images. Popup windows will appear requesting permission.
 
 
 # Execute the Compile Shell Script to Generate Video

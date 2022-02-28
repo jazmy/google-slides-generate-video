@@ -40,6 +40,8 @@ Go to Tools->Script Editor
 
 In the script editor, on the left side bar, you need to add the Google Slide and the Google Drive Service.
 
+![alt text](https://github.com/jazmy/Google-Slides-Generate-Video/blob/main/Adding_Services_Google_Scripts.jpg?raw=true)
+
 
 ## Step 4: Customize the Script
 

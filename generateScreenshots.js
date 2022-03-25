@@ -1,6 +1,6 @@
 function generateScreenshots() {
   
-  var presentationId = "193gYnPOJQwJAZ0NyAZU9OvlL2Eu38AW63O9Tk72dDM";
+  var presentationId = "193gYnPOJQwJAZ0NyAZU9OvlL2Eu38AW63O9Tk72dDM"; // Replace with your presentation id
   var presentationname = "myslides";
   var presentation = SlidesApp.openById(presentationId);
   var baseUrl =
@@ -24,9 +24,8 @@ function generateScreenshots() {
       .replace("{pageObjectId}", slide.getObjectId());
     var response = JSON.parse(UrlFetchApp.fetch(url, parameters));
 
-    // Upload Googel Slide image to Google Drive
+    // Upload Google Slide images to Google Drive
     var blob = UrlFetchApp.fetch(response.contentUrl).getBlob();
-    //var currentslidenumber = ("0" + index + 1).slice(-2);
     var currentslidenumber =leftPad(index + 1, 2) 
 
     DriveApp.createFile(blob).setName(presentationname + currentslidenumber + ".jpg");
